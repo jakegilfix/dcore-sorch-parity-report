@@ -7,7 +7,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-DEFAULT_SRC="${SCRIPT_DIR}/../att-worktrees/dcore-sorch-parity/deployable/disputes-core/PARITY-VERIFICATION.html"
+DEFAULT_SRC="${HOME}/work_space/att-worktrees/dcore-sorch-parity/deployable/disputes-core/PARITY-VERIFICATION.html"
 
 SRC="${1:-$DEFAULT_SRC}"
 
